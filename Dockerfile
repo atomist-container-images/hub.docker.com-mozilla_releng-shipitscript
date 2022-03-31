@@ -1,4 +1,8 @@
-# Tags: dev-20211220200317-b1c1fe528a0c39eeb7f44219fffa74bd9ee75501, dev-20211214120755-8ee01aaff049761a0edb199f1d01d1dd61a62363, dev
-FROM mozilla/releng-shipitscript:dev-20211220200317-b1c1fe528a0c39eeb7f44219fffa74bd9ee75501
-FROM mozilla/releng-shipitscript:dev-20211214120755-8ee01aaff049761a0edb199f1d01d1dd61a62363
-FROM mozilla/releng-shipitscript:dev
+# Tags: production-20220321174712-9829c96b668f2d6c65afa7361a9fee15d79884be
+FROM mozilla/releng-shipitscript:production-20220321174712-9829c96b668f2d6c65afa7361a9fee15d79884be
+
+# Tags: production
+FROM mozilla/releng-shipitscript:production
+
+# Tags: production-20220316161232-73949bc08daa18ecabbf3d6f34ec68d1e4abdf5c
+FROM mozilla/releng-shipitscript:production-20220316161232-73949bc08daa18ecabbf3d6f34ec68d1e4abdf5c
